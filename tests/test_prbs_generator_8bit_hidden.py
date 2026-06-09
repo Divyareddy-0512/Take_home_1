@@ -146,7 +146,7 @@ def test_simple_dff_hidden_runner():
 
    proj_path = Path(__file__).resolve().parent.parent
 
-   sources = [proj_path / "golden/prbs_generator_8bit.sv"]
+   sources = [proj_path / "sources/prbs_generator_8bit.sv"]
 
    runner = get_runner(sim)
    runner.build(
