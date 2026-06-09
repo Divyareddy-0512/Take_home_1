@@ -155,4 +155,4 @@ def test_simple_dff_hidden_runner():
        always=True,
    )
 
-   runner.test(hdl_toplevel="prbs_generator_8bit", test_module="test_prbs_generator_8bit")
+   runner.test(hdl_toplevel="prbs_generator_8bit", test_module="test_prbs_generator_8bit_hidden")
