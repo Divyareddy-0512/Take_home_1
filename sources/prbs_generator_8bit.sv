@@ -10,10 +10,10 @@ module prbs_generator_8bit (
     input  wire        load
 );
     
-    reg [31:0] prbs_out_pre;
+ 
     
     // TODO: Implement PRBS generation logic
     
-    assign prbs_out = prbs_out_pre[7:0];
+    
     
 endmodule
